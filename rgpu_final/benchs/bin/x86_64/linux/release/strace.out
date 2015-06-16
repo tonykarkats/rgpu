@@ -1,0 +1,262 @@
+execve("./scalarProd", ["./scalarProd", "2"], [/* 51 vars */]) = 0
+brk(0)                                  = 0xd36000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0e598b1000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/home/users/akarkat/rcuda/framework/rCUDAl/tls/x86_64/libcudart.so.5.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/users/akarkat/rcuda/framework/rCUDAl/tls/x86_64", 0x7fff91ae9600) = -1 ENOENT (No such file or directory)
+open("/home/users/akarkat/rcuda/framework/rCUDAl/tls/libcudart.so.5.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/users/akarkat/rcuda/framework/rCUDAl/tls", 0x7fff91ae9600) = -1 ENOENT (No such file or directory)
+open("/home/users/akarkat/rcuda/framework/rCUDAl/x86_64/libcudart.so.5.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/home/users/akarkat/rcuda/framework/rCUDAl/x86_64", 0x7fff91ae9600) = -1 ENOENT (No such file or directory)
+open("/home/users/akarkat/rcuda/framework/rCUDAl/libcudart.so.5.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\237\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0700, st_size=343828, ...}) = 0
+mmap(NULL, 2399136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0e59447000
+mprotect(0x7f0e59490000, 2093056, PROT_NONE) = 0
+mmap(0x7f0e5968f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x48000) = 0x7f0e5968f000
+close(3)                                = 0
+open("/home/users/akarkat/rcuda/framework/rCUDAl/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/tls/x86_64/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/tls/x86_64", 0x7fff91ae95d0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/tls/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/tls", 0x7fff91ae95d0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/x86_64/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/x86_64", 0x7fff91ae95d0) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\241\5\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=962656, ...}) = 0
+mmap(NULL, 3142544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0e59147000
+mprotect(0x7f0e59229000, 2093056, PROT_NONE) = 0
+mmap(0x7f0e59428000, 40960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe1000) = 0x7f0e59428000
+mmap(0x7f0e59432000, 82832, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0e59432000
+close(3)                                = 0
+open("/home/users/akarkat/rcuda/framework/rCUDAl/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/cuda-5.0/lib/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda-5.0/lib/tls/x86_64", 0x7fff91ae95a0) = -1 ENOENT (No such file or directory)
+open("/usr/local/cuda-5.0/lib/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda-5.0/lib/tls", 0x7fff91ae95a0) = -1 ENOENT (No such file or directory)
+open("/usr/local/cuda-5.0/lib/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda-5.0/lib/x86_64", 0x7fff91ae95a0) = -1 ENOENT (No such file or directory)
+open("/usr/local/cuda-5.0/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/local/cuda-5.0/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/lib/x86_64-linux-gnu/tls/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64-linux-gnu/tls/x86_64", 0x7fff91ae95a0) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/tls/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64-linux-gnu/tls", 0x7fff91ae95a0) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/x86_64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/lib/x86_64-linux-gnu/x86_64", 0x7fff91ae95a0) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\30\2\0\0\0\0\0"..., 832) = 832
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0e598b0000
+fstat(3, {st_mode=S_IFREG|0755, st_size=1811128, ...}) = 0
+mmap(NULL, 3925208, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0e58d88000
+mprotect(0x7f0e58f3d000, 2093056, PROT_NONE) = 0
+mmap(0x7f0e5913c000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b4000) = 0x7f0e5913c000
+mmap(0x7f0e59142000, 17624, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0e59142000
+close(3)                                = 0
+open("/home/users/akarkat/rcuda/framework/rCUDAl/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/cuda-5.0/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200l\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=135366, ...}) = 0
+mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0e58b6b000
+mprotect(0x7f0e58b83000, 2093056, PROT_NONE) = 0
+mmap(0x7f0e58d82000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f0e58d82000
+mmap(0x7f0e58d84000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0e58d84000
+close(3)                                = 0
+open("/home/users/akarkat/rcuda/framework/rCUDAl/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/cuda-5.0/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14768, ...}) = 0
+mmap(NULL, 2109704, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0e58967000
+mprotect(0x7f0e58969000, 2097152, PROT_NONE) = 0
+mmap(0x7f0e58b69000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f0e58b69000
+close(3)                                = 0
+open("/home/users/akarkat/rcuda/framework/rCUDAl/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/cuda-5.0/lib/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0pU\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1030512, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0e598af000
+mmap(NULL, 3125544, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0e5866b000
+mprotect(0x7f0e58766000, 2093056, PROT_NONE) = 0
+mmap(0x7f0e58965000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xfa000) = 0x7f0e58965000
+close(3)                                = 0
+open("/home/users/akarkat/rcuda/framework/rCUDAl/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/cuda-5.0/lib/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320(\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=88384, ...}) = 0
+mmap(NULL, 2184216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0e58455000
+mprotect(0x7f0e5846a000, 2093056, PROT_NONE) = 0
+mmap(0x7f0e58669000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x7f0e58669000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0e598ae000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0e598ac000
+arch_prctl(ARCH_SET_FS, 0x7f0e598ac740) = 0
+mprotect(0x7f0e5913c000, 16384, PROT_READ) = 0
+mprotect(0x7f0e58669000, 4096, PROT_READ) = 0
+mprotect(0x7f0e58965000, 4096, PROT_READ) = 0
+mprotect(0x7f0e58b69000, 4096, PROT_READ) = 0
+mprotect(0x7f0e58d82000, 4096, PROT_READ) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0e598ab000
+mprotect(0x7f0e59428000, 32768, PROT_READ) = 0
+mprotect(0x7f0e5968f000, 4096, PROT_READ) = 0
+mprotect(0x408000, 4096, PROT_READ)     = 0
+mprotect(0x7f0e598b3000, 4096, PROT_READ) = 0
+set_tid_address(0x7f0e598aca10)         = 5785
+set_robust_list(0x7f0e598aca20, 0x18)   = 0
+futex(0x7fff91ae9efc, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, 7f0e598ac740) = -1 EAGAIN (Resource temporarily unavailable)
+rt_sigaction(SIGRTMIN, {0x7f0e58b71750, [], SA_RESTORER|SA_SIGINFO, 0x7f0e58b7acb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f0e58b717e0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f0e58b7acb0}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM_INFINITY}) = 0
+futex(0x7f0e59432ed0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+brk(0)                                  = 0xd36000
+brk(0xd57000)                           = 0xd57000
+futex(0x7f0e58b6a0b0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/home/users/akarkat/rcuda/framework/rCUDAl/rCUDAcommIB.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220W\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0700, st_size=104344, ...}) = 0
+mmap(NULL, 2184168, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0e5823f000
+mprotect(0x7f0e58253000, 2097152, PROT_NONE) = 0
+mmap(0x7f0e58453000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x7f0e58453000
+close(3)                                = 0
+open("/home/users/akarkat/rcuda/framework/rCUDAl/libibverbs.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libibverbs.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/local/cuda-5.0/lib/libibverbs.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libibverbs.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/x86_64/libibverbs.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("tls/libibverbs.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("x86_64/libibverbs.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("libibverbs.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=55120, ...}) = 0
+mmap(NULL, 55120, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f0e5989d000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/libibverbs.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260.\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=51664, ...}) = 0
+mmap(NULL, 2146904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0e58032000
+mprotect(0x7f0e5803e000, 2093056, PROT_NONE) = 0
+mmap(0x7f0e5823d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb000) = 0x7f0e5823d000
+close(3)                                = 0
+mprotect(0x7f0e5823d000, 4096, PROT_READ) = 0
+mprotect(0x7f0e58453000, 4096, PROT_READ) = 0
+munmap(0x7f0e5989d000, 55120)           = 0
+getuid()                                = 10162
+geteuid()                               = 10162
+open("/sys/class/infiniband_verbs/abi_version", O_RDONLY) = 3
+read(3, "6\n", 8)                       = 2
+close(3)                                = 0
+geteuid()                               = 10162
+getrlimit(RLIMIT_MEMLOCK, {rlim_cur=64*1024, rlim_max=64*1024}) = 0
+openat(AT_FDCWD, "/etc/libibverbs.d", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 4 entries */, 32768)     = 112
+stat("/etc/libibverbs.d/..", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/etc/libibverbs.d/mlx4.driver", {st_mode=S_IFREG|0644, st_size=35, ...}) = 0
+open("/etc/libibverbs.d/mlx4.driver", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=35, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0e598aa000
+read(4, "driver /usr/lib/libibverbs/libml"..., 4096) = 35
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f0e598aa000, 4096)            = 0
+stat("/etc/libibverbs.d/.", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/etc/libibverbs.d/ipath.driver", {st_mode=S_IFREG|0644, st_size=41, ...}) = 0
+open("/etc/libibverbs.d/ipath.driver", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=41, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0e598aa000
+read(4, "driver /usr/lib/libibverbs/libip"..., 4096) = 41
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+munmap(0x7f0e598aa000, 4096)            = 0
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/sys/class/infiniband_verbs", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+getdents(3, /* 4 entries */, 32768)     = 112
+stat("/sys/class/infiniband_verbs/abi_version", {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+stat("/sys/class/infiniband_verbs/uverbs0", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+open("/sys/class/infiniband_verbs/uverbs0/ibdev", O_RDONLY) = 4
+read(4, "mlx4_0\n", 64)                 = 7
+close(4)                                = 0
+open("/sys/class/infiniband_verbs/uverbs0/abi_version", O_RDONLY) = 4
+read(4, "3\n", 8)                       = 2
+close(4)                                = 0
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+getuid()                                = 10162
+geteuid()                               = 10162
+open("/usr/lib/libibverbs/libipathverbs-rdmav2.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\24\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18816, ...}) = 0
+mmap(NULL, 2113912, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0e57e2d000
+mprotect(0x7f0e57e30000, 2097152, PROT_NONE) = 0
+mmap(0x7f0e58030000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f0e58030000
+close(3)                                = 0
+mprotect(0x7f0e58030000, 4096, PROT_READ) = 0
+open("/usr/lib/libibverbs/libmlx4-rdmav2.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\25\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=27064, ...}) = 0
+mmap(NULL, 2122168, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0e57c26000
+mprotect(0x7f0e57c2c000, 2093056, PROT_NONE) = 0
+mmap(0x7f0e57e2b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5000) = 0x7f0e57e2b000
+close(3)                                = 0
+mprotect(0x7f0e57e2b000, 4096, PROT_READ) = 0
+open("/sys/class/infiniband_verbs/uverbs0/device/vendor", O_RDONLY) = 3
+read(3, "0x15b3\n", 8)                  = 7
+close(3)                                = 0
+open("/sys/class/infiniband_verbs/uverbs0/device/device", O_RDONLY) = 3
+read(3, "0x673c\n", 8)                  = 7
+close(3)                                = 0
+open("/sys/class/infiniband_verbs/uverbs0/device/vendor", O_RDONLY) = 3
+read(3, "0x15b3\n", 8)                  = 7
+close(3)                                = 0
+open("/sys/class/infiniband_verbs/uverbs0/device/device", O_RDONLY) = 3
+read(3, "0x673c\n", 8)                  = 7
+close(3)                                = 0
+open("/sys/class/infiniband/mlx4_0/node_type", O_RDONLY) = 3
+read(3, "1: CA\n", 8)                   = 6
+close(3)                                = 0
+futex(0x7f0e5823e1d0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/dev/infiniband/uverbs0", O_RDWR) = 3
+write(3, "\0\0\0\0\4\0\4\0`\222\256\221\377\177\0\0", 16) = 16
+mmap(NULL, 4096, PROT_WRITE, MAP_SHARED, 3, 0) = 0x7f0e598aa000
+mmap(NULL, 4096, PROT_WRITE, MAP_SHARED, 3, 0x1000) = 0x7f0e598a9000
+write(3, "\1\0\0\0\4\0,\0\240\221\256\221\377\177\0\0", 16) = 16
+write(3, "\2\0\0\0\6\0\n\0P\222\256\221\377\177\0\0\1\0\0\0\0\0\0\0", 24) = 24
+socket(PF_INET, SOCK_STREAM, IPPROTO_TCP) = 5
+connect(5, {sa_family=AF_INET, sin_port=htons(8308), sin_addr=inet_addr("192.168.1.5")}, 16) = 0
+write(3, "\3\0\0\0\4\0\3\0`\222\256\221\377\177\0\0", 16) = 16
+write(3, "\21\0\0\0\4\0\1\0p\222\256\221\377\177\0\0", 16) = 16
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0e598a8000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0e598a7000
+write(3, "\22\0\0\0\16\0\4\0\20\222\256\221\377\177\0\0000\265\323\0\0\0\0\0\3\0\0\0\0\0\0\0"..., 56) = 56
+write(3, "\21\0\0\0\4\0\1\0p\222\256\221\377\177\0\0", 16) = 16
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0e598a6000
+write(3, "\22\0\0\0\16\0\4\0\20\222\256\221\377\177\0\0@\263\323\0\0\0\0\0\3\0\0\0\0\0\0\0"..., 56) = 56
+write(3, "\21\0\0\0\4\0\1\0p\222\256\221\377\177\0\0", 16) = 16
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0e598a5000
+write(3, "\22\0\0\0\16\0\4\0\20\222\256\221\377\177\0\0\300\234\323\0\0\0\0\0\3\0\0\0\0\0\0\0"..., 56) = 56
+write(3, "\21\0\0\0\4\0\1\0p\222\256\221\377\177\0\0", 16) = 16
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0e598a4000
+write(3, "\22\0\0\0\16\0\4\0\20\222\256\221\377\177\0\0\260\235\323\0\0\0\0\0\3\0\0\0\0\0\0\0"..., 56) = 56
+mmap(NULL, 135168, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0e59883000
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0e57425000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0e59882000
+write(3, "\30\0\0\0\26\0\10\0\320\221\256\221\377\177\0\0000\271\323\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 88) = -1 ENOMEM (Cannot allocate memory)
+munmap(0x7f0e59882000, 4096)            = 0
+munmap(0x7f0e59883000, 135168)          = 0
+munmap(0x7f0e57425000, 8392704)         = 0
+rt_sigprocmask(SIG_UNBLOCK, [ABRT], NULL, 8) = 0
+tgkill(5785, 5785, SIGABRT)             = 0
+--- SIGABRT (Aborted) @ 0 (0) ---
++++ killed by SIGABRT (core dumped) +++

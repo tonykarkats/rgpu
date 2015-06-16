@@ -1,0 +1,6 @@
+__libc_start_main(0x4016ff, 2, 0x7fffe333e238, 0x402ec0, 0x402f50 <unfinished ...>
+_ZNSt8ios_base4InitC1Ev(0x409170, 65535, 0x7fffe333e250, 832, 0x402f50) = 17
+__cxa_atexit(0x401010, 0x409170, 0x409140, 832, 0x402f50) = 0
+__cudaRegisterFatBinary(0x406cb8, 0x7fffe333e238, 0x7fffe333e250, 864, 0x402f50 <unfinished ...>
+--- SIGABRT (Aborted) ---
++++ killed by SIGABRT +++
